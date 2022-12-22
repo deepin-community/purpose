@@ -1,0 +1,28 @@
+#!/usr/bin/make -f
+# -*- makefile -*-
+
+export DEB_BUILD_MAINT_OPTIONS = hardening=+all
+
+libpkgs_gen_strict_local_shlibs = $(libpkgs_all_packages)
+include /usr/share/pkg-kde-tools/qt-kde-team/3/library-packages.mk
+
+%:
+	dh $@ --with kf5,pkgkde_symbolshelper --buildsystem kf5 --without build_stamp
+
+override_dh_auto_configure:
+	dh_auto_configure -Skf5 -- -DBUILD_TESTING=OFF
+
+override_dh_auto_test:
+	# Disable auto_tests at build time
+	:
+
+override_dh_makeshlibs:
+	dh_makeshlibs -plibkf5purpose-bin -V
+	dh_makeshlibs --remaining-packages
+
+override_dh_shlibdeps:
+	dh_shlibdeps -plibkf5purpose5 -- -xlibkf5purpose-bin
+	dh_shlibdeps --remaining-packages
+
+override_dh_gencontrol-arch: libpkgs_gen_strict_local_shlibs
+	dh_gencontrol

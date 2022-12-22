@@ -1,0 +1,461 @@
+purpose (5.86.0-1) unstable; urgency=medium
+
+  [ Norbert Preining ]
+  * New upstream release (5.86.0).
+  * Bump Standards-Version to 4.6.0, no change required.
+
+ -- Norbert Preining <norbert@preining.info>  Mon, 13 Sep 2021 11:05:17 +0900
+
+purpose (5.85.0-2) unstable; urgency=medium
+
+  * Release to unstable.
+
+ -- Norbert Preining <norbert@preining.info>  Sat, 28 Aug 2021 23:42:49 +0900
+
+purpose (5.85.0-1) experimental; urgency=medium
+
+  [ Norbert Preining ]
+  * New upstream release (5.85.0).
+
+ -- Norbert Preining <norbert@preining.info>  Mon, 16 Aug 2021 00:07:39 +0900
+
+purpose (5.83.0-2) unstable; urgency=medium
+
+  * Upload to unstable.
+
+ -- Norbert Preining <norbert@preining.info>  Mon, 16 Aug 2021 11:53:12 +0900
+
+purpose (5.83.0-1) experimental; urgency=medium
+
+  [ Norbert Preining ]
+  * New upstream release (5.83.0).
+
+ -- Norbert Preining <norbert@preining.info>  Sun, 13 Jun 2021 09:32:18 +0900
+
+purpose (5.82.0-1) experimental; urgency=medium
+
+  [ Norbert Preining ]
+  * New upstream release (5.82.0).
+  * Removed Maximiliano Curia from the uploaders, thanks for your work
+    on the package!
+
+ -- Norbert Preining <norbert@preining.info>  Sat, 08 May 2021 21:25:42 +0900
+
+purpose (5.81.0-1) experimental; urgency=medium
+
+  [ Norbert Preining ]
+  * New upstream version (5.81.0)
+  * Bump inter-frameworks dependencies.
+
+ -- Norbert Preining <norbert@preining.info>  Mon, 12 Apr 2021 10:18:21 +0900
+
+purpose (5.80.0-1) experimental; urgency=medium
+
+  [ Norbert Preining ]
+  * New upstream version (5.80.0)
+  * Bump inter-frameworks dependencies.
+
+ -- Norbert Preining <norbert@preining.info>  Mon, 15 Mar 2021 15:10:37 +0900
+
+purpose (5.79.0-2) experimental; urgency=medium
+
+  [ Norbert Preining ]
+  * Strengthen B-D for libkf5notifications-dev, fix failed builds.
+
+ -- Norbert Preining <norbert@preining.info>  Tue, 16 Feb 2021 20:01:06 +0900
+
+purpose (5.79.0-1) experimental; urgency=medium
+
+  [ Norbert Preining ]
+  * New upstream release (5.79.0).
+
+ -- Norbert Preining <norbert@preining.info>  Tue, 16 Feb 2021 06:45:30 +0900
+
+purpose (5.78.0-2) unstable; urgency=medium
+
+  * Release to unstable.
+
+ -- Norbert Preining <norbert@preining.info>  Sun, 17 Jan 2021 12:02:27 +0900
+
+purpose (5.78.0-1) experimental; urgency=medium
+
+  [ Norbert Preining ]
+  * New upstream release (5.78.0).
+  * Update build-deps and deps with the info from cmake.
+
+ -- Norbert Preining <norbert@preining.info>  Wed, 13 Jan 2021 10:32:44 +0900
+
+purpose (5.77.0-2) unstable; urgency=medium
+
+  * Release to unstable.
+
+ -- Norbert Preining <norbert@preining.info>  Tue, 22 Dec 2020 10:33:37 +0900
+
+purpose (5.77.0-1) experimental; urgency=medium
+
+  [ Norbert Preining ]
+  * Bump Standards-Version to 4.5.1 (No changes needed).
+  * New upstream release (5.77.0).
+  * Update build-deps and deps with the info from cmake.
+  * Add myself to Uploaders.
+  * Update maintainer to Debian Qt/KDE Maintainers.
+
+ -- Norbert Preining <norbert@preining.info>  Fri, 18 Dec 2020 10:03:56 +0900
+
+purpose (5.74.0-2) unstable; urgency=medium
+
+  * Team upload to unstable.
+
+ -- Sandro Knauß <hefee@debian.org>  Mon, 19 Oct 2020 23:18:49 +0200
+
+purpose (5.74.0-1) experimental; urgency=medium
+
+  * Team upload.
+
+  [ Sandro Knauß ]
+  * New upstream release (5.74.0).
+  * Update build-deps and deps with the info from cmake.
+  * Add renamecategories file to libkf5purpose5.
+  * Purpose does not depend on libkf5wallet-dev.
+  * Update Homepage link to point to new invent.kde.org
+  * Update repository related entries to metadata file.
+  * Update field Source in debian/copyright to invent.kde.org move.
+  * Add Bug-* entries to metadata file.
+  * Update symbols from build for 5.74.0.
+  * Update lintian-overrides.
+
+ -- Sandro Knauß <hefee@debian.org>  Sun, 27 Sep 2020 17:46:34 +0200
+
+purpose (5.70.0-2) unstable; urgency=medium
+
+  * Team upload.
+  * The twitter plugin was removed in version 5.68.0, so:
+    - remove the nodejs recommend from libkf5purpose-bin, as it was needed
+      for it
+    - remove the README.Debian in libkf5purpose-bin mentioning the nodejs
+      recommend
+  * Demote the kdeconnect recommend in libkf5purpose-bin to a suggest:
+    anything that links to libkf5purpose5 gets libkf5purpose-bin added as
+    dependency, so installing kdeconnect by default seems too much if only
+    the library is used.
+  * Remove unused build dependencies: kaccounts-integration, and
+    libsignon-qt5-dev.
+  * Explicitly add the gettext build dependency.
+  * Update lintian overrides.
+  * Remove the libkf5purpose-bin dependency in libkf5purpose-dev, as the former
+    is not needed to build things using the Purpose libraries.
+  * Bump the libkaccounts-dev build dependency to 20.08.0, to make sure to
+    build against libkaccounts2.
+
+ -- Pino Toscano <pino@debian.org>  Fri, 14 Aug 2020 00:47:04 +0200
+
+purpose (5.70.0-1) unstable; urgency=medium
+
+  * Team upload.
+
+  [ Sandro Knauß ]
+  * New upstream release (5.70.0).
+  * Update build-deps and deps with the info from cmake.
+  * Wrap long lines in changelog entries: 1.1-1.
+  * Set field Upstream-Contact in debian/copyright.
+  * Remove obsolete fields Contact, Name from debian/upstream/metadata
+    (already present in machine-readable debian/copyright).
+  * Remove not needed Build-Depends.
+  * Straighten kirigami dependencies.
+
+ -- Sandro Knauß <hefee@debian.org>  Tue, 26 May 2020 23:58:04 +0200
+
+purpose (5.69.0-1) experimental; urgency=medium
+
+  * Team upload.
+
+  [ Sandro Knauß ]
+  * Bump Standards-Version to 4.5.0 (No changes needed).
+  * Add Rules-Requires-Root field to control.
+  * New upstream release (5.69.0).
+  * Update build-deps and deps with the info from cmake.
+  * Add Build-Depends-Package to symbols file.
+  * Remove not needed nodejs-name patch.
+  * Delete KPacakge files from libkf5purpose-bin package.
+  * Bump compat level to 13.
+  * Remove kpackage plugin dir (twitter plugin was removed).
+  * Update copyright file.
+  * Enable hardening all.
+  * Delete not needed Breaks/Confilcts.
+  * Remove not needed injection of linker flags.
+
+ -- Sandro Knauß <hefee@debian.org>  Thu, 30 Apr 2020 17:58:47 +0200
+
+purpose (5.62.0-2) unstable; urgency=medium
+
+  * Team upload.
+  * Bump Standards-Version to 4.4.1, no changes required.
+  * Pass -DBUILD_TESTING=OFF to cmake to disable the build of tests, as they
+    are not run at build time anyway.
+  * Drop the 'testsuite' autopkgtest, as it does not test the installed
+    packages.
+  * Limit the qml-module-org-kde-bluezqt dependency in libkf5purpose-bin to
+    Linux architectures only, as bluez (and thus bluez-qt) exists only on
+    Linux.
+
+ -- Pino Toscano <pino@debian.org>  Tue, 01 Oct 2019 18:44:52 +0200
+
+purpose (5.62.0-1) unstable; urgency=medium
+
+  * Update reprotest args variable
+  * New upstream release (5.62.0).
+  * Update build-deps and deps with the info from cmake
+  * Release to unstable
+
+ -- Maximiliano Curia <maxy@debian.org>  Fri, 20 Sep 2019 10:13:18 -0700
+
+purpose (5.61.0-1) experimental; urgency=medium
+
+  [ Maximiliano Curia ]
+  * Salsa CI automatic initialization by Tuco
+  * New upstream release (5.61.0).
+  * Update build-deps and deps with the info from cmake
+  * Add missing version to maintscript
+  * Refresh patches
+  * Add libkf5notifications-dev build-dep
+  * Ignore reprotest build path variations
+  * Release to experimental
+
+  [ Jonathan Riddell ]
+  * moved qdebug files
+
+ -- Maximiliano Curia <maxy@debian.org>  Mon, 09 Sep 2019 21:11:10 +0100
+
+purpose (5.54.0-1) unstable; urgency=medium
+
+  [ Maximiliano Curia ]
+  * New upstream release (5.52.0).
+  * Update build-deps and deps with the info from cmake
+  * New upstream release (5.53.0).
+  * Update build-deps and deps with the info from cmake
+  * Update symbols files.
+  * New upstream release (5.54.0).
+  * Update build-deps and deps with the info from cmake
+  * Add qml-module-qtquick-controls2 runtime dependency
+  * Bump group breaks (5.54)
+  * Release to unstable
+
+  [ Scarlett Gately Moore ]
+  * Add missing qml dependency for bluezqt.
+
+ -- Maximiliano Curia <maxy@debian.org>  Thu, 17 Jan 2019 19:27:38 -0300
+
+purpose (5.51.0-1) unstable; urgency=medium
+
+  * New upstream release (5.50.0).
+  * Update build-deps and deps with the info from cmake
+  * Bump group breaks (5.50)
+  * New upstream release (5.51.0).
+  * Update build-deps and deps with the info from cmake
+  * Run auto tests with no parallel
+  * Bump group breaks (5.51)
+  * Release to unstable
+
+ -- Maximiliano Curia <maxy@debian.org>  Wed, 07 Nov 2018 17:17:36 +0100
+
+purpose (5.49.0-1) unstable; urgency=medium
+
+  * New revision
+  * Migrate to debhelper 11
+  * New upstream release (5.48.0).
+  * Update build-deps and deps with the info from cmake
+  * New upstream release (5.49.0).
+  * Update build-deps and deps with the info from cmake
+  * Update install files
+  * Bump group breaks (5.49)
+  * Release to unstable
+
+ -- Maximiliano Curia <maxy@debian.org>  Fri, 17 Aug 2018 16:19:16 +0200
+
+purpose (5.47.0-1) unstable; urgency=medium
+
+  * New upstream release (5.47.0).
+  * Update build-deps and deps with the info from cmake
+  * Bump group breaks (5.47)
+  * Release to unstable
+
+ -- Maximiliano Curia <maxy@debian.org>  Fri, 15 Jun 2018 12:11:05 +0200
+
+purpose (5.46.0-1) unstable; urgency=medium
+
+  * New upstream release (5.46.0).
+  * Update build-deps and deps with the info from cmake
+  * testsuite: Ignore stderr
+  * Bump group breaks (5.46)
+  * Release to unstable
+
+ -- Maximiliano Curia <maxy@debian.org>  Thu, 17 May 2018 22:15:54 +0200
+
+purpose (5.44.0-1) unstable; urgency=medium
+
+  * Team upload.
+  * New upstream release.
+  * Update watch file to point to its location as Framework, and add the
+    signing key.
+  * Update the patches:
+    - use_nodejs.diff: drop, obsolete now (upstream does it)
+  * Update install files.
+  * Update symbols file.
+  * Fix the dh_makeshlibs invocation:
+    - call it with -V for libkf5purpose-bin, so shlibdeps on the private
+      libraries can be detected properly (thus qml-module-org-kde-purpose
+      has the proper dependency)
+    - call it without arguments for all the other binaries, so symbols files
+      work as expected
+  * Update lintian overrides.
+  * Switch Vcs-* fields to salsa.debian.org.
+  * Small changes to copyright.
+  * Tighten the inter-library dependencies.
+  * Force "node" as executable for nodejs (see CTTE #862051); patch
+    nodejs-name.diff.
+  * Bump Standards-Version to 4.1.4, no changes required.
+
+ -- Pino Toscano <pino@debian.org>  Sun, 22 Apr 2018 08:56:29 +0200
+
+purpose (1.1-5) unstable; urgency=medium
+
+  * Team upload.
+
+  [ Maximiliano Curia ]
+  * Downgrade nodejs to Recommends.
+    Thanks to Bob Tracy for reporting (Closes: 855486)
+
+  [ Pino Toscano ]
+  * Switch Homepage to a working cgit.kde.org URL.
+  * Drop the transitional qml-modules-org-kde-purpose binary.
+    - fix the version of breaks/replaces in qml-module-org-kde-purpose to
+      1.1-5~
+  * Remove unused debian/meta/cmake-ignore file.
+  * Use $(DEB_HOST_MULTIARCH) instead of $(DEB_HOST_GNU_TYPE) in excluded
+    paths for dh_makeshlibs, so it properly works also on i386 architectures.
+  * Fix Git web interface URLs in debian/upstream/metadata.
+
+ -- Pino Toscano <pino@debian.org>  Sun, 18 Jun 2017 14:57:16 +0200
+
+purpose (1.1-4) unstable; urgency=medium
+
+  * Use nodejs instead of the nodejs-legacy dep (Closes: 848602)
+    Thanks to Ben Longbons for reporting
+
+ -- Maximiliano Curia <maxy@debian.org>  Tue, 20 Dec 2016 16:36:52 +0100
+
+purpose (1.1-3) unstable; urgency=medium
+
+  * Use the new kf5 dev names
+  * Make nodejs an arch qualified dependency
+  * Add missing breaks/replaces.
+    Thanks to Andreas Beckmann for reporting (Closes: 846574)
+
+ -- Maximiliano Curia <maxy@debian.org>  Tue, 06 Dec 2016 20:55:55 +0100
+
+purpose (1.1-2) unstable; urgency=medium
+
+  * Upload to unstable.
+  * Make the transitional packages arch:any
+  * Avoid circular dependencies
+
+ -- Maximiliano Curia <maxy@debian.org>  Wed, 09 Nov 2016 13:53:13 +0100
+
+purpose (1.1-1) experimental; urgency=medium
+
+  [ Jonathan Riddell ]
+  * Initial Package
+  * add new runtime dependencies and install new twitter plugin
+  * add twitter runtime dep nodejs-legacy
+  * move depends to suggests for now, they bring in too many dependencies until
+    kf5 versions are built
+  * add back depends on kdeconnect now that we built it in neon and it's
+    installable
+  * dep on kdeconnect not kdeconnect-plasma
+  * fix watch file
+  * fix mangled files
+  * cmake ignore runtime bits
+  * ignore shlibs on plugins
+  * add lintian overrides
+  * description-too-long
+  * use ci version to allow installs
+  * qml deps
+  * it didn't like ci:buildversion
+  * just override lintian error for -dev dep version, needs to wait for version
+    numbers with debian to sync before we can use a proper version again
+  * fix version
+  * add transitional package for libkf5purposewidgets5
+  * rename to qml-modules-org-kde-purpose
+
+  [ Harald Sitter ]
+  * fix qml dependencies
+  * install new stuff
+  * add new library
+  * add more missing qml deps
+  * install new dev so
+  * fix bad copynpaste
+  * add symbol files because symbol files are kewl
+  * lintian override private lib
+  * symbol update
+  * make sure the dev package depends on the widget lib
+  * revise build deps
+  * remove bloody workarounds
+  * override existing runtime deps
+  * add back dep on kdeconnect-plasma as the kdeconnect plugin is in the lib
+  * mangle rc version to not be shit
+  * also mangle the alpha
+  * sod off lintian
+  * import test rigging from kio
+  * install built bins to make sure all relevant qml deps are here
+  * install new localization
+  * twitter and youtube need kquickcontrolsaddons
+  * recommend libkf5purpose-bin for consistency
+  * force qml module to depend on -bin
+
+  [ Clive Johnston ]
+  * Fixing watch file
+  * Updating symbols file
+  * Adding missing file to libkf5purpose5.install
+  * Adding unusual-interpreter to lintian overrides
+  * Adding new and removing MISSING symbols
+
+  [ Rohan Garg ]
+  * Try building purpose without a bdep on qml-module-ubuntu-onlineaccounts
+  * Remove runtime dependencies from build-dependencies
+  * Install all services together
+
+  [ Maximiliano Curia ]
+  * Add a .gitattributes file to use dpkg-mergechangelogs
+  * Initial tweaking
+  * Update copyiright information
+  * Add upstream metadata (DEP-12)
+  * Update descriptions
+  * Bump Standards-Version to 3.9.8
+  * Update build-deps and deps with the info from cmake
+  * Update tests
+  * Split plugins libexec and data from the lib package
+  * Add me as a human maintainer
+  * The tests require kinit
+  * Provide swrast for the tests
+  * Add patch: use_nodejs.diff
+  * Depend on nodejs for the twitter script
+  * Add a symbols file
+  * Inject the bin dependency through the symbols file
+  * Install reviewboardhelper
+  * Fix the acc file
+  * Add missing dependencies
+  * Downgrade kdeconnect dependency to recommends.
+  * Update build-deps and deps with the info from cmake
+  * Drop unused -dbg package
+  * Drop circular -bin<->lib dependency
+  * Drop ubuntu specific dependency
+  * Add the libKF5PurposeWidgets.so.5 symbols to the symbols file
+  * Add package-must-activate-ldconfig-trigger lintian override for helper lib
+    libReviewboardHelpers.so
+
+  [ Raymond Wooninck ]
+  * Use a different version string
+  * Get the right conflict/replace in place
+  * Fix version strings
+
+ -- Maximiliano Curia <maxy@debian.org>  Fri, 14 Oct 2016 18:18:00 +0200

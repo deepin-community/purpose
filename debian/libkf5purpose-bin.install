@@ -1,0 +1,11 @@
+usr/lib/*/libPhabricatorHelpers.so.5
+usr/lib/*/libPhabricatorHelpers.so.5.*
+usr/lib/*/libReviewboardHelpers.so.5
+usr/lib/*/libReviewboardHelpers.so.5.*
+usr/lib/*/libexec/kf5/purposeprocess
+usr/lib/*/qt5/plugins/kf5/kfileitemaction/sharefileitemaction.so
+usr/lib/*/qt5/plugins/kf5/purpose/*.so
+usr/share/accounts/services/
+usr/share/icons/
+usr/share/locale/*/LC_MESSAGES/*purpose*.mo
+usr/share/purpose/

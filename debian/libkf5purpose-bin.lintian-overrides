@@ -1,0 +1,4 @@
+# private libraries for QML stuff
+libkf5purpose-bin: package-name-doesnt-match-sonames libPhabricatorHelpers5 libReviewboardHelpers5
+# private library
+libkf5purpose-bin: no-symbols-control-file

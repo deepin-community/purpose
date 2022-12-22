@@ -1,0 +1,6 @@
+usr/include/KF5/purpose/
+usr/include/KF5/purposewidgets/
+usr/lib/*/cmake/KDEExperimentalPurpose/
+usr/lib/*/cmake/KF5Purpose/
+usr/lib/*/libKF5Purpose.so
+usr/lib/*/libKF5PurposeWidgets.so
