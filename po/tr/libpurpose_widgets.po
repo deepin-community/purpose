@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: libpurpose_widgets\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2020-08-29 02:10+0200\n"
+"POT-Creation-Date: 2021-10-22 00:14+0000\n"
 "PO-Revision-Date: 2017-08-10 09:15+0000\n"
 "Last-Translator: Kaan <kaanozdincer@gmail.com>\n"
 "Language-Team: Turkish <kde-i18n-doc@kde.org>\n"
@@ -17,7 +17,12 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n > 1);\n"
 
-#: JobDialog.qml:39
+#: JobDialog.qml:18
+#, kde-format
+msgid "Send File"
+msgstr ""
+
+#: JobDialog.qml:41
 #, kde-format
 msgid "Configuration cancelled"
 msgstr ""

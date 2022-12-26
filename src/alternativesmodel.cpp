@@ -17,7 +17,7 @@
 #include <QStandardPaths>
 
 #include <KConfigGroup>
-#include <KPluginLoader>
+#include <KJsonUtils>
 #include <KPluginMetaData>
 #include <KSharedConfig>
 
@@ -256,7 +256,7 @@ QVariant AlternativesModel::data(const QModelIndex &index, int role) const
         return data.pluginId();
     case ActionDisplayRole: {
         const auto pluginData = data.rawData()[QStringLiteral("KPlugin")].toObject();
-        const QString action = KPluginMetaData::readTranslatedString(pluginData, QStringLiteral("X-Purpose-ActionDisplay"));
+        const QString action = KJsonUtils::readTranslatedString(pluginData, QStringLiteral("X-Purpose-ActionDisplay"));
         return action.isEmpty() ? data.name() : action;
     }
     }
@@ -299,7 +299,7 @@ void AlternativesModel::initializeModel()
     const QJsonArray inbound = d->m_pluginTypeData.value(QStringLiteral("X-Purpose-InboundArguments")).toArray();
     for (const QJsonValue &arg : inbound) {
         if (!d->m_inputData.contains(arg.toString())) {
-            qWarning() << "Cannot initialize model with data" << d->m_inputData << ". missing:" << arg;
+            qWarning().nospace() << "Cannot initialize model with data " << d->m_inputData << ". missing: " << arg;
             return;
         }
     }
@@ -313,7 +313,7 @@ void AlternativesModel::initializeModel()
 
     beginResetModel();
     d->m_plugins.clear();
-    d->m_plugins << KPluginLoader::findPlugins(QStringLiteral("kf5/purpose"), pluginAcceptable);
+    d->m_plugins << KPluginMetaData::findPlugins(QStringLiteral("kf5/purpose"), pluginAcceptable);
     d->m_plugins += findScriptedPackages(pluginAcceptable);
     endResetModel();
 }

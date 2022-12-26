@@ -103,6 +103,7 @@ libKF5Purpose.so.5 libkf5purpose5 #MINVER#, libkf5purpose-bin
  _ZTVN7Purpose13JobControllerE@Base 5.74.0
  _ZTVN7Purpose17AlternativesModelE@Base 1.1
  _ZTVN7Purpose3JobE@Base 1.1
+ _ZZZN14KPluginFactory17instantiatePluginI7QObjectEENS_6ResultIT_EERK15KPluginMetaDataPS1_RK5QListI8QVariantEENKUlvE_clEvE15qstring_literal@Base 5.90.0
 libKF5PurposeWidgets.so.5 libkf5purpose5 #MINVER#
 * Build-Depends-Package: libkf5purpose-dev
  _ZN7Purpose4Menu11qt_metacallEN11QMetaObject4CallEiPPv@Base 1.1

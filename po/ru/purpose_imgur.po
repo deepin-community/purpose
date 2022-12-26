@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2021-03-06 02:34+0100\n"
+"POT-Creation-Date: 2021-12-14 00:41+0000\n"
 "PO-Revision-Date: 2018-05-27 19:18+0300\n"
 "Last-Translator: Alexander Potashev <aspotashev@gmail.com>\n"
 "Language-Team: Russian <kde-russian@lists.kde.ru>\n"
@@ -18,12 +18,25 @@ msgstr ""
 "%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2;\n"
 "X-Generator: Lokalize 2.0\n"
 
-#: imgurplugin.cpp:64
+#: imgurplugin.cpp:67
 #, kde-format
 msgid "Error page returned"
 msgstr "Сервер вернул страницу с сообщением об ошибке"
 
-#: imgurplugin.cpp:94
+#: imgurplugin.cpp:97
 #, kde-format
 msgid "Uploading files to imgur..."
 msgstr "Загрузка файлов в Imgur..."
+
+#: imgurplugin.cpp:147
+#, kde-format
+msgid "Imgur Upload"
+msgstr ""
+
+#: imgurplugin.cpp:148
+#, kde-format
+msgid ""
+"The shared image link (<a href=\"%1\">%1</a>) has been copied to the "
+"clipboard.<br><br>If you would like to remove the uploaded image, visit <a "
+"href=\"%2\">%2</a>"
+msgstr ""

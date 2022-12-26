@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2020-08-29 02:10+0200\n"
+"POT-Creation-Date: 2021-10-22 00:14+0000\n"
 "PO-Revision-Date: 2020-04-19 09:09+0200\n"
 "Last-Translator: Łukasz Wojniłowicz <lukasz.wojnilowicz@gmail.com>\n"
 "Language-Team: Polish <kde-i18n-doc@kde.org>\n"
@@ -18,7 +18,13 @@ msgstr ""
 "|| n%100>=20) ? 1 : 2);\n"
 "X-Generator: Lokalize 20.07.70\n"
 
-#: JobDialog.qml:39
+#: JobDialog.qml:18
+#, fuzzy, kde-format
+#| msgid "Send"
+msgid "Send File"
+msgstr "Wyślij"
+
+#: JobDialog.qml:41
 #, kde-format
 msgid "Configuration cancelled"
 msgstr "Zaniechano ustawień"

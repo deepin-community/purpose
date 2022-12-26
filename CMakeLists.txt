@@ -2,7 +2,7 @@ cmake_minimum_required(VERSION 3.16)
 
 project(Purpose)
 
-find_package(ECM 5.86.0 REQUIRED NO_MODULE)
+find_package(ECM 5.90.0 REQUIRED NO_MODULE)
 
 set(CMAKE_MODULE_PATH ${ECM_MODULE_PATH})
 
@@ -25,8 +25,8 @@ include(ECMQtDeclareLoggingCategory)
 include(ECMGenerateQmlTypes)
 include(ECMQMLModules)
 
-set(KF_VERSION "5.86.0") # handled by release scripts
-set(KF_DEP_VERSION "5.86.0") # handled by release scripts
+set(KF_VERSION "5.90.0") # handled by release scripts
+set(KF_DEP_VERSION "5.90.0") # handled by release scripts
 
 find_package(KF5 ${KF_DEP_VERSION} REQUIRED COMPONENTS CoreAddons I18n Config Kirigami2 Notifications KIO)
 
@@ -40,6 +40,7 @@ set_package_properties(KAccounts PROPERTIES
 ecm_find_qmlmodule(Ubuntu.OnlineAccounts 0.1)
 ecm_find_qmlmodule(org.kde.kdeconnect 1.0)
 ecm_find_qmlmodule(org.kde.kquickcontrolsaddons 2.0)
+ecm_find_qmlmodule(org.kde.prison 1.0)
 
 ecm_setup_version(${KF_VERSION} VARIABLE_PREFIX PURPOSE
                         VERSION_HEADER "${CMAKE_CURRENT_BINARY_DIR}/purpose_version.h"

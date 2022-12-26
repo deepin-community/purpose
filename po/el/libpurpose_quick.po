@@ -7,8 +7,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2021-08-04 00:15+0000\n"
-"PO-Revision-Date: 2021-09-04 09:50+0300\n"
+"POT-Creation-Date: 2021-12-07 00:41+0000\n"
+"PO-Revision-Date: 2021-10-23 08:48+0300\n"
 "Last-Translator: Stelios <sstavra@gmail.com>\n"
 "Language-Team: Greek <kde-i18n-el@kde.org>\n"
 "Language: el\n"
@@ -34,12 +34,12 @@ msgstr ""
 "\n"
 "%1"
 
-#: JobView.qml:117
+#: JobView.qml:121
 #, kde-format
-msgid "Run"
-msgstr "Εκτέλεση"
+msgid "Send"
+msgstr "Αποστολή"
 
-#: JobView.qml:123
+#: JobView.qml:129
 #, kde-format
-msgid "Back"
-msgstr "Πίσω"
+msgid "Cancel"
+msgstr "Ακύρωση"

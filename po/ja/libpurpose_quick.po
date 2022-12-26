@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: libpurpose_quick\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2021-08-04 00:15+0000\n"
+"POT-Creation-Date: 2021-12-07 00:41+0000\n"
 "PO-Revision-Date: 2015-09-30 11:23-0700\n"
 "Last-Translator: Japanese KDE translation team <kde-jp@kde.org>\n"
 "Language-Team: Japanese <kde-jp@kde.org>\n"
@@ -27,12 +27,12 @@ msgid ""
 "%1"
 msgstr ""
 
-#: JobView.qml:117
+#: JobView.qml:121
 #, kde-format
-msgid "Run"
+msgid "Send"
 msgstr ""
 
-#: JobView.qml:123
+#: JobView.qml:129
 #, kde-format
-msgid "Back"
+msgid "Cancel"
 msgstr ""

@@ -3,15 +3,15 @@
 # This file is distributed under the license LGPL version 2.1 or
 # version 3 or later versions approved by the membership of KDE e.V.
 #
-# Josep Ma. Ferrer <txemaq@gmail.com>, 2015.
-# Empar <montoro_mde@gva.es>, 2019.
+# Josep M. Ferrer <txemaq@gmail.com>, 2015.
+# Empar Montoro Martín <montoro_mde@gva.es>, 2019.
 msgid ""
 msgstr ""
 "Project-Id-Version: purpose\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2021-08-04 00:15+0000\n"
+"POT-Creation-Date: 2021-12-07 00:41+0000\n"
 "PO-Revision-Date: 2019-06-19 13:09+0200\n"
-"Last-Translator: Empar <montoro_mde@gva.es>\n"
+"Last-Translator: Empar Montoro Martín <montoro_mde@gva.es>\n"
 "Language-Team: Catalan <kde-i18n-ca@kde.org>\n"
 "Language: ca@valencia\n"
 "MIME-Version: 1.0\n"
@@ -35,12 +35,12 @@ msgid ""
 "%1"
 msgstr ""
 
-#: JobView.qml:117
+#: JobView.qml:121
 #, kde-format
-msgid "Run"
-msgstr "Executa"
+msgid "Send"
+msgstr ""
 
-#: JobView.qml:123
+#: JobView.qml:129
 #, kde-format
-msgid "Back"
-msgstr "Arrere"
+msgid "Cancel"
+msgstr ""

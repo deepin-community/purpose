@@ -1,18 +1,18 @@
 # Translation of purpose_reviewboard.po to Catalan (Valencian)
-# Copyright (C) 2010-2015 This_file_is_part_of_KDE
+# Copyright (C) 2010-2020 This_file_is_part_of_KDE
 # This file is distributed under the license LGPL version 2.1 or
 # version 3 or later versions approved by the membership of KDE e.V.
 #
 # Manuel Tortosa <manutortosa@chakra-project.org>, 2010.
-# Josep Ma. Ferrer <txemaq@gmail.com>, 2012, 2013, 2014, 2015.
-# Antoni Bella Pérez <antonibella5@yahoo.com>, 2012, 2013, 2015.
+# Josep M. Ferrer <txemaq@gmail.com>, 2012, 2013, 2014, 2015.
+# Antoni Bella Pérez <antonibella5@yahoo.com>, 2012, 2013, 2015, 2020.
 msgid ""
 msgstr ""
 "Project-Id-Version: purpose\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2021-03-06 02:34+0100\n"
-"PO-Revision-Date: 2015-09-27 13:21+0200\n"
-"Last-Translator: Josep Ma. Ferrer <txemaq@gmail.com>\n"
+"PO-Revision-Date: 2020-07-31 16:04+0200\n"
+"Last-Translator: Antoni Bella Pérez <antonibella5@yahoo.com>\n"
 "Language-Team: Catalan <kde-i18n-ca@kde.org>\n"
 "Language: ca@valencia\n"
 "MIME-Version: 1.0\n"
@@ -20,7 +20,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
 "X-Accelerator-Marker: &\n"
-"X-Generator: Lokalize 1.5\n"
+"X-Generator: Lokalize 20.04.3\n"
 
 #: reviewboardjobs.cpp:165
 #, kde-format
@@ -38,7 +38,7 @@ msgid ""
 "Could not create the new request:\n"
 "%1"
 msgstr ""
-"No s'ha pogut crear la nova sol·licitud:\n"
+"No s'ha pogut crear la sol·licitud nova:\n"
 "%1"
 
 #: reviewboardjobs.cpp:237
@@ -106,7 +106,7 @@ msgstr "/"
 #: reviewpatch.ui:46
 #, kde-format
 msgid "Where this project was checked out from"
-msgstr "D'on va ser extret aquest projecte"
+msgstr "D'on es va extreure aquest projecte"
 
 #. i18n: ectx: property (title), widget (QGroupBox, groupBox)
 #: reviewpatch.ui:56

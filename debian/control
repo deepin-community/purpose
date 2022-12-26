@@ -2,21 +2,22 @@ Source: purpose
 Section: libs
 Priority: optional
 Maintainer: Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
-Uploaders: Norbert Preining <norbert@preining.info>
+Uploaders: Aurélien COUDERC <coucouf@debian.org>,
+           Norbert Preining <norbert@preining.info>,
 Build-Depends: cmake (>= 3.16~),
                debhelper-compat (= 13),
-               extra-cmake-modules (>= 5.86.0~),
+               extra-cmake-modules (>= 5.90.0~),
                gettext,
                intltool,
-               kirigami2-dev (>= 5.86.0~),
+               kirigami2-dev (>= 5.90.0~),
                libaccounts-glib-dev,
                libaccounts-qt5-dev,
                libkaccounts-dev (>= 4:20.08.0~),
-               libkf5config-dev (>= 5.86.0~),
-               libkf5coreaddons-dev (>= 5.86.0~),
-               libkf5i18n-dev (>= 5.86.0~),
-               libkf5kio-dev (>= 5.86.0~),
-               libkf5notifications-dev (>= 5.86.0~),
+               libkf5config-dev (>= 5.90.0~),
+               libkf5coreaddons-dev (>= 5.90.0~),
+               libkf5i18n-dev (>= 5.90.0~),
+               libkf5kio-dev (>= 5.90.0~),
+               libkf5notifications-dev (>= 5.90.0~),
                pkg-config,
                pkg-kde-tools (>= 0.15.15ubuntu1~),
                qtbase5-dev (>= 5.15.2~),
@@ -49,7 +50,7 @@ Package: libkf5purpose-dev
 Section: libdevel
 Architecture: any
 Multi-Arch: same
-Depends: libkf5coreaddons-dev (>= 5.86.0~),
+Depends: libkf5coreaddons-dev (>= 5.90.0~),
          libkf5purpose5 (= ${binary:Version}),
          qtbase5-dev (>= 5.15.2~),
          ${misc:Depends},

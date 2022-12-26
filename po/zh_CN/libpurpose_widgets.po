@@ -6,8 +6,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kdeorg\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2020-08-29 02:10+0200\n"
-"PO-Revision-Date: 2021-08-30 11:44\n"
+"POT-Creation-Date: 2021-10-22 00:14+0000\n"
+"PO-Revision-Date: 2021-12-22 14:06\n"
 "Last-Translator: \n"
 "Language-Team: Chinese Simplified\n"
 "Language: zh_CN\n"
@@ -21,7 +21,12 @@ msgstr ""
 "X-Crowdin-File: /kf5-trunk/messages/purpose/libpurpose_widgets.pot\n"
 "X-Crowdin-File-ID: 6836\n"
 
-#: JobDialog.qml:39
+#: JobDialog.qml:18
+#, kde-format
+msgid "Send File"
+msgstr "发送文件"
+
+#: JobDialog.qml:41
 #, kde-format
 msgid "Configuration cancelled"
 msgstr "配置已取消"

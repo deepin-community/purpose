@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: libpurpose_widgets\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2020-08-29 02:10+0200\n"
+"POT-Creation-Date: 2021-10-22 00:14+0000\n"
 "PO-Revision-Date: 2019-06-25 16:11+0800\n"
 "Last-Translator: pan93412 <pan93412@gmail.com>\n"
 "Language-Team: Chinese <zh-l10n@lists.linux.org.tw>\n"
@@ -18,7 +18,13 @@ msgstr ""
 "X-Generator: Lokalize 19.04.2\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
 
-#: JobDialog.qml:39
+#: JobDialog.qml:18
+#, fuzzy, kde-format
+#| msgid "Send"
+msgid "Send File"
+msgstr "傳送"
+
+#: JobDialog.qml:41
 #, kde-format
 msgid "Configuration cancelled"
 msgstr "已取消設定"

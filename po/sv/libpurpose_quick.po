@@ -6,8 +6,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2021-08-04 00:15+0000\n"
-"PO-Revision-Date: 2021-08-04 16:26+0200\n"
+"POT-Creation-Date: 2021-12-07 00:41+0000\n"
+"PO-Revision-Date: 2021-10-22 18:24+0200\n"
 "Last-Translator: Stefan Asserhäll <stefan.asserhall@bredband.net>\n"
 "Language-Team: Swedish <kde-i18n-doc@kde.org>\n"
 "Language: sv\n"
@@ -33,12 +33,12 @@ msgstr ""
 "\n"
 "%1"
 
-#: JobView.qml:117
+#: JobView.qml:121
 #, kde-format
-msgid "Run"
-msgstr "Run"
+msgid "Send"
+msgstr "Skicka"
 
-#: JobView.qml:123
+#: JobView.qml:129
 #, kde-format
-msgid "Back"
-msgstr "Tillbaka"
+msgid "Cancel"
+msgstr "Avbryt"
