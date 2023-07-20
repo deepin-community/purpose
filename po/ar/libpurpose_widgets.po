@@ -28,3 +28,9 @@ msgstr "أرسل ملفًّا"
 #, kde-format
 msgid "Configuration cancelled"
 msgstr "الضبط ألغي"
+
+#~ msgid "Cancel"
+#~ msgstr "ألغِ"
+
+#~ msgid "Run"
+#~ msgstr "شغّل"

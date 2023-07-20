@@ -36,3 +36,9 @@ msgstr ""
 #, kde-format
 msgid "Upload to folder:"
 msgstr "Бор кардан ба ҷузвадон:"
+
+#~ msgid "Account:"
+#~ msgstr "Ҳисоб:"
+
+#~ msgid "Invalid folder!"
+#~ msgstr "Ҷузвадони нодуруст!"

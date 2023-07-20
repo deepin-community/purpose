@@ -45,3 +45,12 @@ msgstr "Надіслати"
 #, kde-format
 msgid "Cancel"
 msgstr "Скасувати"
+
+#~ msgid "Run"
+#~ msgstr "Виконати"
+
+#~ msgid "Back"
+#~ msgstr "Назад"
+
+#~ msgid "Configuration cancelled"
+#~ msgstr "Налаштовування скасовано"

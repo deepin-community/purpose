@@ -36,3 +36,9 @@ msgstr "Accounts configureren"
 #, kde-format
 msgid "Upload to folder:"
 msgstr "Naar map uploaden:"
+
+#~ msgid "Account:"
+#~ msgstr "Account:"
+
+#~ msgid "Invalid folder!"
+#~ msgstr "Ongeldige map!"

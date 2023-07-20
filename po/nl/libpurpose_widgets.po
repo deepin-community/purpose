@@ -26,3 +26,12 @@ msgstr "Bestand verzenden"
 #, kde-format
 msgid "Configuration cancelled"
 msgstr "Configuratie geannuleerd"
+
+#~ msgid "Cancel"
+#~ msgstr "Annuleren"
+
+#~ msgid "Run"
+#~ msgstr "Uitvoeren"
+
+#~ msgid "%1 - %2"
+#~ msgstr "%1 - %2"

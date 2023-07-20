@@ -39,3 +39,9 @@ msgstr ""
 #, kde-format
 msgid "Cancel"
 msgstr ""
+
+#~ msgid "Run"
+#~ msgstr "Иҷро кардан"
+
+#~ msgid "Back"
+#~ msgstr "Ба қафо"

@@ -2,12 +2,11 @@ cmake_minimum_required(VERSION 3.16)
 
 project(Purpose)
 
-find_package(ECM 5.90.0 REQUIRED NO_MODULE)
+find_package(ECM 5.103.0 REQUIRED NO_MODULE)
 
 set(CMAKE_MODULE_PATH ${ECM_MODULE_PATH})
 
 set(REQUIRED_QT_VERSION 5.15.2)
-find_package(Qt5 ${REQUIRED_QT_VERSION} CONFIG REQUIRED Core Qml Gui DBus Widgets Network Test)
 include(KDEInstallDirs)
 include(KDEFrameworkCompilerSettings NO_POLICY_SCOPE)
 include(KDECMakeSettings)
@@ -22,11 +21,14 @@ include(ECMInstallIcons)
 include(ECMGenerateHeaders)
 include(ECMMarkNonGuiExecutable)
 include(ECMQtDeclareLoggingCategory)
+include(ECMDeprecationSettings)
 include(ECMGenerateQmlTypes)
 include(ECMQMLModules)
+include(ECMQmlModule)
+find_package(Qt${QT_MAJOR_VERSION} ${REQUIRED_QT_VERSION} CONFIG REQUIRED Core Qml Gui DBus Widgets Network Test)
 
-set(KF_VERSION "5.90.0") # handled by release scripts
-set(KF_DEP_VERSION "5.90.0") # handled by release scripts
+set(KF_VERSION "5.103.0") # handled by release scripts
+set(KF_DEP_VERSION "5.103.0") # handled by release scripts
 
 find_package(KF5 ${KF_DEP_VERSION} REQUIRED COMPONENTS CoreAddons I18n Config Kirigami2 Notifications KIO)
 
@@ -38,7 +40,6 @@ set_package_properties(KAccounts PROPERTIES
 )
 
 ecm_find_qmlmodule(Ubuntu.OnlineAccounts 0.1)
-ecm_find_qmlmodule(org.kde.kdeconnect 1.0)
 ecm_find_qmlmodule(org.kde.kquickcontrolsaddons 2.0)
 ecm_find_qmlmodule(org.kde.prison 1.0)
 
@@ -47,9 +48,12 @@ ecm_setup_version(${KF_VERSION} VARIABLE_PREFIX PURPOSE
                         PACKAGE_VERSION_FILE "${CMAKE_CURRENT_BINARY_DIR}/KF5PurposeConfigVersion.cmake"
                         SOVERSION 5)
 
-# Wait until libaccounts-qt has a release that doesn't use QString::null https://gitlab.com/accounts-sso/libaccounts-qt/issues/4
-#add_definitions(-DQT_DISABLE_DEPRECATED_BEFORE=0x050f02)
-add_definitions(-DKF_DISABLE_DEPRECATED_BEFORE_AND_AT=0x055100)
+ecm_set_disabled_deprecation_versions(
+    # QT 5.15.2 Wait until libaccounts-qt has a release that doesn't use QString::null https://gitlab.com/accounts-sso/libaccounts-qt/issues/4
+    KF 5.95
+    KCOREADDONS 5.85 # K_EXPORT_PLUGIN_VERSION
+)
+
 add_subdirectory( src )
 if (BUILD_TESTING)
     add_subdirectory( autotests )
@@ -80,7 +84,7 @@ install(EXPORT KF5PurposeTargets DESTINATION "${CMAKECONFIG_INSTALL_DIR}" FILE K
 
 install(FILES
   ${CMAKE_CURRENT_BINARY_DIR}/purpose_version.h
-  DESTINATION ${KDE_INSTALL_INCLUDEDIR_KF5}/purpose COMPONENT Devel
+  DESTINATION ${KDE_INSTALL_INCLUDEDIR_KF}/purpose COMPONENT Devel
 )
 
 feature_summary(WHAT ALL   FATAL_ON_MISSING_REQUIRED_PACKAGES)

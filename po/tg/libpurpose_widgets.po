@@ -27,3 +27,6 @@ msgstr "Фиристодан"
 #, kde-format
 msgid "Configuration cancelled"
 msgstr "Танзимот бекор карда шуд"
+
+#~ msgid "Cancel"
+#~ msgstr "Бекор кардан"

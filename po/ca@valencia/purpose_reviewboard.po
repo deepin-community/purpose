@@ -25,12 +25,12 @@ msgstr ""
 #: reviewboardjobs.cpp:165
 #, kde-format
 msgid "JSON error: %1"
-msgstr "Error del JSON: %1"
+msgstr "S'ha produït un error amb JSON: %1"
 
 #: reviewboardjobs.cpp:170
 #, kde-format
 msgid "Request Error: %1"
-msgstr "Error de sol·licitud: %1"
+msgstr "S'ha produït un error de sol·licitud: %1"
 
 #: reviewboardjobs.cpp:198
 #, kde-format
@@ -106,7 +106,7 @@ msgstr "/"
 #: reviewpatch.ui:46
 #, kde-format
 msgid "Where this project was checked out from"
-msgstr "D'on es va extreure aquest projecte"
+msgstr "D'on es va extraure este projecte"
 
 #. i18n: ectx: property (title), widget (QGroupBox, groupBox)
 #: reviewpatch.ui:56

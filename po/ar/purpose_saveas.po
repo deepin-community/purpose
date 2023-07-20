@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2021-03-06 02:34+0100\n"
+"POT-Creation-Date: 2022-09-13 00:42+0000\n"
 "PO-Revision-Date: 2021-07-20 21:50+0400\n"
 "Last-Translator: Zayed Al-Saidi <zayed.alsaidi@gmail.com>\n"
 "Language-Team: \n"
@@ -19,7 +19,7 @@ msgstr ""
 "&& n%100<=10 ? 3 : n%100>=11 && n%100<=99 ? 4 : 5;\n"
 "X-Generator: Lokalize 19.12.3\n"
 
-#: saveasplugin.cpp:47
+#: saveasplugin.cpp:45
 #, kde-format
 msgid "No URLs to save"
 msgstr "لا مسارات لحفظها"

@@ -43,3 +43,9 @@ msgstr "Pošlji"
 #, kde-format
 msgid "Cancel"
 msgstr "Prekliči"
+
+#~ msgid "Run"
+#~ msgstr "Poženi"
+
+#~ msgid "Back"
+#~ msgstr "Nazaj"

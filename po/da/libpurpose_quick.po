@@ -42,3 +42,9 @@ msgstr ""
 #, kde-format
 msgid "Cancel"
 msgstr ""
+
+#~ msgid "Run"
+#~ msgstr "Kør"
+
+#~ msgid "Back"
+#~ msgstr "Tilbage"

@@ -44,3 +44,12 @@ msgstr "Enviar"
 #, kde-format
 msgid "Cancel"
 msgstr "Cancelar"
+
+#~ msgid "Run"
+#~ msgstr "Ejecutar"
+
+#~ msgid "Back"
+#~ msgstr "Atrás"
+
+#~ msgid "Configuration cancelled"
+#~ msgstr "Configuración cancelada"

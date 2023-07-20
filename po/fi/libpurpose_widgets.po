@@ -26,3 +26,12 @@ msgstr "Lähetä tiedosto"
 #, kde-format
 msgid "Configuration cancelled"
 msgstr "Määrittäminen peruttiin"
+
+#~ msgid "Cancel"
+#~ msgstr "Peru"
+
+#~ msgid "Run"
+#~ msgstr "Suorita"
+
+#~ msgid "%1 - %2"
+#~ msgstr "%1 – %2"

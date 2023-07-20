@@ -36,3 +36,9 @@ msgstr "Fiókok beállítása"
 #, kde-format
 msgid "Upload to folder:"
 msgstr "Feltöltés mappába:"
+
+#~ msgid "Account:"
+#~ msgstr "Fiók:"
+
+#~ msgid "Invalid folder!"
+#~ msgstr "Érvénytelen mappa!"

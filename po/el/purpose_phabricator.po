@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: purpose\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2021-03-06 02:34+0100\n"
+"POT-Creation-Date: 2022-08-09 00:42+0000\n"
 "PO-Revision-Date: 2020-10-21 12:51+0300\n"
 "Last-Translator: Stelios <sstavra@gmail.com>\n"
 "Language-Team: Greek <kde-i18n-el@kde.org>\n"
@@ -75,12 +75,12 @@ msgstr "Δημιουργία νέου \"differential diff\""
 msgid "Create or update?"
 msgstr "Δημιουργία ή ενημέρωση;"
 
-#: phabricatorplugin_config.qml:69
+#: phabricatorplugin_config.qml:65
 #, kde-format
 msgid "New Diff"
 msgstr "Νέο diff"
 
-#: phabricatorplugin_config.qml:70
+#: phabricatorplugin_config.qml:66
 #, kde-format
 msgid ""
 "tick this to create a new \"differential diff\" which can\n"
@@ -89,12 +89,12 @@ msgstr ""
 "επιλέξτε το για να δημιουργηθεί ένα νέο \"differential diff\"\n"
 "το οποίο μπορεί να μετατραπεί επιγραμμικά σε μια νέα διαφοροποιημένη έκδοση"
 
-#: phabricatorplugin_config.qml:78
+#: phabricatorplugin_config.qml:73
 #, kde-format
 msgid "Update Diff"
 msgstr "Ενημέρωση diff"
 
-#: phabricatorplugin_config.qml:79
+#: phabricatorplugin_config.qml:74
 #, kde-format
 msgid ""
 "tick this to update an existing revision,\n"
@@ -103,23 +103,23 @@ msgstr ""
 "επιλέξτε το για ενημέρωση υπάρχουσας έκδοσης,\n"
 "επιλέξτε μία από την παρακάτω λίστα."
 
-#: phabricatorplugin_config.qml:107
+#: phabricatorplugin_config.qml:102
 #, kde-format
 msgid "Open Diff in browser"
 msgstr "Άνοιγμα Diff στον περιηγητή"
 
 #. i18nd("purpose_phabricator", ).arg() to avoid showing the "%1" when inactive
-#: phabricatorplugin_config.qml:114
+#: phabricatorplugin_config.qml:109
 #, kde-format
 msgid "Summary of the update to %1:"
 msgstr "Σύνοψη της ενημέρωσης στο %1:"
 
-#: phabricatorplugin_config.qml:114
+#: phabricatorplugin_config.qml:109
 #, kde-format
 msgid "Summary of the update"
 msgstr "Σύνοψη της ενημέρωσης"
 
-#: phabricatorplugin_config.qml:122
+#: phabricatorplugin_config.qml:117
 #, kde-format
 msgid "patch updated through %1 and the Purpose/Phabricator plugin"
 msgstr ""

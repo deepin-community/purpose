@@ -36,3 +36,9 @@ msgstr "Aseta tilejä"
 #, kde-format
 msgid "Upload to folder:"
 msgstr "Lähetä kansioon:"
+
+#~ msgid "Account:"
+#~ msgstr "Tili:"
+
+#~ msgid "Invalid folder!"
+#~ msgstr "Virheellinen kansio!"

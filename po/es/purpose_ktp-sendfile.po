@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: purpose_ktp-sendfile\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2021-03-06 02:34+0100\n"
+"POT-Creation-Date: 2022-09-13 00:42+0000\n"
 "PO-Revision-Date: 2015-11-15 01:29+0100\n"
 "Last-Translator: Eloy Cuadra <ecuadra@eloihr.net>\n"
 "Language-Team: Spanish <kde-l10n-es@kde.org>\n"
@@ -19,7 +19,7 @@ msgstr ""
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
 "X-Generator: Lokalize 1.5\n"
 
-#: ktpsendfileplugin.cpp:39
+#: ktpsendfileplugin.cpp:37
 #, kde-format
 msgid "Couldn't find 'ktp-send-file' executable."
 msgstr "No se puede encontrar el ejecutable «ktp-send-file»."

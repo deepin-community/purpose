@@ -26,3 +26,12 @@ msgstr "Kirimkan"
 #, kde-format
 msgid "Configuration cancelled"
 msgstr "Konfigurasi dibatalkan"
+
+#~ msgid "Cancel"
+#~ msgstr "Batalkan"
+
+#~ msgid "Run"
+#~ msgstr "Jalankan"
+
+#~ msgid "%1 - %2"
+#~ msgstr "%1 - %2"

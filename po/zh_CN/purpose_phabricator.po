@@ -1,14 +1,9 @@
-# SOME DESCRIPTIVE TITLE.
-# Copyright (C) YEAR This_file_is_part_of_KDE
-# This file is distributed under the same license as the PACKAGE package.
-# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
-#
 msgid ""
 msgstr ""
 "Project-Id-Version: kdeorg\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2021-03-06 02:34+0100\n"
-"PO-Revision-Date: 2021-12-22 14:06\n"
+"POT-Creation-Date: 2022-08-09 00:42+0000\n"
+"PO-Revision-Date: 2023-01-12 10:31\n"
 "Last-Translator: \n"
 "Language-Team: Chinese Simplified\n"
 "Language: zh_CN\n"
@@ -78,12 +73,12 @@ msgstr "建立新的“差分改动”"
 msgid "Create or update?"
 msgstr "创建还是更新？"
 
-#: phabricatorplugin_config.qml:69
+#: phabricatorplugin_config.qml:65
 #, kde-format
 msgid "New Diff"
 msgstr "新改动"
 
-#: phabricatorplugin_config.qml:70
+#: phabricatorplugin_config.qml:66
 #, kde-format
 msgid ""
 "tick this to create a new \"differential diff\" which can\n"
@@ -92,12 +87,12 @@ msgstr ""
 "勾选此项以创建一个新的 \"differential diff\"，\n"
 "可将其联机转换为新的差异修订版本"
 
-#: phabricatorplugin_config.qml:78
+#: phabricatorplugin_config.qml:73
 #, kde-format
 msgid "Update Diff"
 msgstr "更新改动"
 
-#: phabricatorplugin_config.qml:79
+#: phabricatorplugin_config.qml:74
 #, kde-format
 msgid ""
 "tick this to update an existing revision,\n"
@@ -106,23 +101,23 @@ msgstr ""
 "勾选此项可更新现有修订版，\n"
 "请从下面的列表中选择一个。"
 
-#: phabricatorplugin_config.qml:107
+#: phabricatorplugin_config.qml:102
 #, kde-format
 msgid "Open Diff in browser"
 msgstr "在浏览器中打开改动"
 
 #. i18nd("purpose_phabricator", ).arg() to avoid showing the "%1" when inactive
-#: phabricatorplugin_config.qml:114
+#: phabricatorplugin_config.qml:109
 #, kde-format
 msgid "Summary of the update to %1:"
 msgstr "%1 的更新概要："
 
-#: phabricatorplugin_config.qml:114
+#: phabricatorplugin_config.qml:109
 #, kde-format
 msgid "Summary of the update"
 msgstr "更新概要"
 
-#: phabricatorplugin_config.qml:122
+#: phabricatorplugin_config.qml:117
 #, kde-format
 msgid "patch updated through %1 and the Purpose/Phabricator plugin"
 msgstr "已通过 %1 及 Purpose/Phabricator 插件上传补丁"

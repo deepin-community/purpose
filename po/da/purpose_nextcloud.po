@@ -36,3 +36,9 @@ msgstr "Indstil online konti"
 #, kde-format
 msgid "Upload to folder:"
 msgstr "Upload til mappe:"
+
+#~ msgid "Account:"
+#~ msgstr "Konto:"
+
+#~ msgid "Invalid folder!"
+#~ msgstr "Ugyldig mappe!"

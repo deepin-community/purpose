@@ -36,3 +36,9 @@ msgstr ""
 #, kde-format
 msgid "Upload to folder:"
 msgstr "Enviar ao cartafol:"
+
+#~ msgid "Account:"
+#~ msgstr "Conta:"
+
+#~ msgid "Invalid folder!"
+#~ msgstr "Cartafol incorrecto!"

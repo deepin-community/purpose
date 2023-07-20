@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: purpose\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2021-03-06 02:34+0100\n"
+"POT-Creation-Date: 2022-08-09 00:42+0000\n"
 "PO-Revision-Date: 2019-12-12 20:54+0000\n"
 "Last-Translator: Preyas Prathap <preyasprathap@protonmail.com>\n"
 "Language-Team: Swathanthra|സ്വതന്ത്ര Malayalam|മലയാളം Computing|കമ്പ്യൂട്ടിങ്ങ് <smc."
@@ -74,47 +74,47 @@ msgstr ""
 msgid "Create or update?"
 msgstr ""
 
-#: phabricatorplugin_config.qml:69
+#: phabricatorplugin_config.qml:65
 #, kde-format
 msgid "New Diff"
 msgstr ""
 
-#: phabricatorplugin_config.qml:70
+#: phabricatorplugin_config.qml:66
 #, kde-format
 msgid ""
 "tick this to create a new \"differential diff\" which can\n"
 "be converted online to a new differential revision"
 msgstr ""
 
-#: phabricatorplugin_config.qml:78
+#: phabricatorplugin_config.qml:73
 #, kde-format
 msgid "Update Diff"
 msgstr ""
 
-#: phabricatorplugin_config.qml:79
+#: phabricatorplugin_config.qml:74
 #, kde-format
 msgid ""
 "tick this to update an existing revision,\n"
 "select one from the list below."
 msgstr ""
 
-#: phabricatorplugin_config.qml:107
+#: phabricatorplugin_config.qml:102
 #, kde-format
 msgid "Open Diff in browser"
 msgstr ""
 
 #. i18nd("purpose_phabricator", ).arg() to avoid showing the "%1" when inactive
-#: phabricatorplugin_config.qml:114
+#: phabricatorplugin_config.qml:109
 #, kde-format
 msgid "Summary of the update to %1:"
 msgstr ""
 
-#: phabricatorplugin_config.qml:114
+#: phabricatorplugin_config.qml:109
 #, kde-format
 msgid "Summary of the update"
 msgstr ""
 
-#: phabricatorplugin_config.qml:122
+#: phabricatorplugin_config.qml:117
 #, kde-format
 msgid "patch updated through %1 and the Purpose/Phabricator plugin"
 msgstr ""

@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: purpose_saveas\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2021-03-06 02:34+0100\n"
+"POT-Creation-Date: 2022-09-13 00:42+0000\n"
 "PO-Revision-Date: 2018-06-21 20:41+0100\n"
 "Last-Translator: Iñigo Salvador Azurmendi <xalba@euskalnet.net>\n"
 "Language-Team: Basque <kde-i18n-doc@kde.org>\n"
@@ -20,7 +20,7 @@ msgstr ""
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 "X-Generator: Lokalize 2.0\n"
 
-#: saveasplugin.cpp:47
+#: saveasplugin.cpp:45
 #, kde-format
 msgid "No URLs to save"
 msgstr "Ez dago gorde beharreko URLrik"

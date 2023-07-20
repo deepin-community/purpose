@@ -36,3 +36,9 @@ msgstr "Configurar contas"
 #, kde-format
 msgid "Upload to folder:"
 msgstr "Enviar para pasta:"
+
+#~ msgid "Account:"
+#~ msgstr "Conta:"
+
+#~ msgid "Invalid folder!"
+#~ msgstr "Pasta inválida!"

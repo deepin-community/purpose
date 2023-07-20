@@ -23,3 +23,12 @@ msgstr "Senden"
 #, kde-format
 msgid "Configuration cancelled"
 msgstr "Einrichtung abgebrochen"
+
+#~ msgid "Cancel"
+#~ msgstr "Abbrechen"
+
+#~ msgid "Run"
+#~ msgstr "Ausführen"
+
+#~ msgid "%1 - %2"
+#~ msgstr "%1 - %2"

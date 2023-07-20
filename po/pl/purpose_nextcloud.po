@@ -37,3 +37,9 @@ msgstr "Ustawienia kont"
 #, kde-format
 msgid "Upload to folder:"
 msgstr "Wyślij do katalogu:"
+
+#~ msgid "Account:"
+#~ msgstr "Konto:"
+
+#~ msgid "Invalid folder!"
+#~ msgstr "Nieprawidłowy katalog!"

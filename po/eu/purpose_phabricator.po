@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: purpose_phabricator\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2021-03-06 02:34+0100\n"
+"POT-Creation-Date: 2022-08-09 00:42+0000\n"
 "PO-Revision-Date: 2018-06-11 23:41+0100\n"
 "Last-Translator: Iñigo Salvador Azurmendi <xalba@euskalnet.net>\n"
 "Language-Team: Basque <kde-i18n-doc@kde.org>\n"
@@ -76,12 +76,12 @@ msgstr "Sortu \"diff diferentzial\" berria"
 msgid "Create or update?"
 msgstr "Sortu edo eguneratu?"
 
-#: phabricatorplugin_config.qml:69
+#: phabricatorplugin_config.qml:65
 #, kde-format
 msgid "New Diff"
 msgstr "«Diff» berria"
 
-#: phabricatorplugin_config.qml:70
+#: phabricatorplugin_config.qml:66
 #, kde-format
 msgid ""
 "tick this to create a new \"differential diff\" which can\n"
@@ -90,12 +90,12 @@ msgstr ""
 "markatu hau \"diff diferentzial\" berri bat sortzeko, lerroan\n"
 "berrikuspen diferentzial berri batera bihurtu daitekeena"
 
-#: phabricatorplugin_config.qml:78
+#: phabricatorplugin_config.qml:73
 #, kde-format
 msgid "Update Diff"
 msgstr "Eguneratu «diff»"
 
-#: phabricatorplugin_config.qml:79
+#: phabricatorplugin_config.qml:74
 #, kde-format
 msgid ""
 "tick this to update an existing revision,\n"
@@ -104,23 +104,29 @@ msgstr ""
 "markatu hau dagoen berrikuspen bat eguneratzeko,\n"
 "hautatu bat azpiko zerrendatik."
 
-#: phabricatorplugin_config.qml:107
+#: phabricatorplugin_config.qml:102
 #, kde-format
 msgid "Open Diff in browser"
 msgstr "Ireki «diff» arakatzailean"
 
 #. i18nd("purpose_phabricator", ).arg() to avoid showing the "%1" when inactive
-#: phabricatorplugin_config.qml:114
+#: phabricatorplugin_config.qml:109
 #, kde-format
 msgid "Summary of the update to %1:"
 msgstr "%1-erako eguneraketaren laburpena:"
 
-#: phabricatorplugin_config.qml:114
+#: phabricatorplugin_config.qml:109
 #, kde-format
 msgid "Summary of the update"
 msgstr "Eguneraketaren laburpena"
 
-#: phabricatorplugin_config.qml:122
+#: phabricatorplugin_config.qml:117
 #, kde-format
 msgid "patch updated through %1 and the Purpose/Phabricator plugin"
 msgstr "adabakia eguneratuta %1 eta Purpose/Phabricator pluginaren bidez"
+
+#~ msgid "Please note"
+#~ msgstr "Kontuan izan"
+
+#~ msgid "Remember to complete the differential revision online!"
+#~ msgstr "Gogoratu berrikuspen diferentziala lerroan osatzeaz!"

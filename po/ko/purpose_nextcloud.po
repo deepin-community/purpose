@@ -36,3 +36,9 @@ msgstr "계정 설정"
 #, kde-format
 msgid "Upload to folder:"
 msgstr "업로드할 폴더:"
+
+#~ msgid "Account:"
+#~ msgstr "계정:"
+
+#~ msgid "Invalid folder!"
+#~ msgstr "폴더가 잘못되었습니다!"

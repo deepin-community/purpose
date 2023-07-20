@@ -1,18 +1,15 @@
-qt_add_resources(purposequick_SRCS qmlfiles.qrc)
+ecm_add_qml_module(purposequickplugin URI "org.kde.purpose" VERSION 1.0)
 
-add_library(purposequickplugin purposequickplugin.cpp ${purposequick_SRCS})
-target_link_libraries(purposequickplugin Qt5::Qml KF5Purpose)
-set(bindest "${CMAKE_BINARY_DIR}/bin/qml/org/kde/purpose/")
-set_target_properties(purposequickplugin PROPERTIES LIBRARY_OUTPUT_DIRECTORY "${bindest}")
+target_sources(purposequickplugin PRIVATE purposequickplugin.cpp)
 
-add_custom_command(
-    OUTPUT ${bindest}/qmldir
-    COMMAND cmake -E make_directory -p ${bindest}
-    COMMAND cmake -E copy ${CMAKE_CURRENT_SOURCE_DIR}/qmldir ${bindest}
-    DEPENDS ${CMAKE_CURRENT_SOURCE_DIR}/qmldir
+ecm_target_qml_sources(purposequickplugin SOURCES
+    AlternativesView.qml
+    JobView.qml
 )
 
-install(TARGETS purposequickplugin DESTINATION ${KDE_INSTALL_QMLDIR}/org/kde/purpose)
-install(FILES qmldir DESTINATION ${KDE_INSTALL_QMLDIR}/org/kde/purpose)
+target_link_libraries(purposequickplugin
+    Qt${QT_MAJOR_VERSION}::Qml
+    KF5Purpose
+)
 
-ecm_generate_qmltypes(org.kde.purpose 1.0 DESTINATION ${KDE_INSTALL_QMLDIR}/org/kde/purpose)
+ecm_finalize_qml_module(purposequickplugin DESTINATION ${KDE_INSTALL_QMLDIR})

@@ -26,3 +26,9 @@ msgstr "Fájl küldése"
 #, kde-format
 msgid "Configuration cancelled"
 msgstr "Beállítás megszakítva"
+
+#~ msgid "Cancel"
+#~ msgstr "Mégsem"
+
+#~ msgid "Run"
+#~ msgstr "Futtatás"

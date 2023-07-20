@@ -19,13 +19,13 @@ int main(int argc, char **argv)
 {
     QApplication app(argc, argv);
 
-    QScopedPointer<Purpose::Menu> menu(new Purpose::Menu);
-    Purpose::AlternativesModel *model = menu->model();
+    Purpose::Menu menu;
+    Purpose::AlternativesModel *model = menu.model();
 
     QJsonObject input;
     if (!app.arguments().isEmpty()) {
         QMimeDatabase mime;
-        QUrl url = QUrl::fromUserInput(app.arguments().last());
+        QUrl url = QUrl::fromUserInput(app.arguments().constLast());
         input = QJsonObject{{QStringLiteral("urls"), QJsonArray{url.toString()}}, {QStringLiteral("mimeType"), mime.mimeTypeForUrl(url).name()}};
     } else {
         input =
@@ -35,10 +35,10 @@ int main(int argc, char **argv)
 
     model->setInputData(input);
     model->setPluginType(QStringLiteral("Export"));
-    menu->reload();
-    menu->exec();
+    menu.reload();
+    menu.exec();
 
-    QObject::connect(menu.data(), &Purpose::Menu::finished, menu.data(), [&app](const QJsonObject &output, int error, const QString &errorMessage) {
+    QObject::connect(&menu, &Purpose::Menu::finished, &menu, [&app](const QJsonObject &output, int error, const QString &errorMessage) {
         if (error != 0) {
             qDebug() << "job failed with error" << errorMessage;
         }

@@ -6,23 +6,23 @@ Uploaders: Aurélien COUDERC <coucouf@debian.org>,
            Norbert Preining <norbert@preining.info>,
 Build-Depends: cmake (>= 3.16~),
                debhelper-compat (= 13),
-               extra-cmake-modules (>= 5.90.0~),
+               extra-cmake-modules (>= 5.103.0~),
                gettext,
                intltool,
-               kirigami2-dev (>= 5.90.0~),
+               kirigami2-dev (>= 5.103.0~),
                libaccounts-glib-dev,
                libaccounts-qt5-dev,
                libkaccounts-dev (>= 4:20.08.0~),
-               libkf5config-dev (>= 5.90.0~),
-               libkf5coreaddons-dev (>= 5.90.0~),
-               libkf5i18n-dev (>= 5.90.0~),
-               libkf5kio-dev (>= 5.90.0~),
-               libkf5notifications-dev (>= 5.90.0~),
+               libkf5config-dev (>= 5.103.0~),
+               libkf5coreaddons-dev (>= 5.103.0~),
+               libkf5i18n-dev (>= 5.103.0~),
+               libkf5kio-dev (>= 5.103.0~),
+               libkf5notifications-dev (>= 5.103.0~),
                pkg-config,
                pkg-kde-tools (>= 0.15.15ubuntu1~),
                qtbase5-dev (>= 5.15.2~),
                qtdeclarative5-dev (>= 5.15.2~),
-Standards-Version: 4.6.0
+Standards-Version: 4.6.2
 Homepage: https://invent.kde.org/frameworks/purpose
 Vcs-Browser: https://salsa.debian.org/qt-kde-team/kde/purpose
 Vcs-Git: https://salsa.debian.org/qt-kde-team/kde/purpose.git
@@ -33,10 +33,11 @@ Architecture: any
 Multi-Arch: same
 Depends: qml-module-org-kde-bluezqt (>= 5.70.0~) [linux-any],
          qml-module-org-kde-kquickcontrolsaddons (>= 5.70.0~),
+         qml-module-org-kde-prison,
          qml-module-qtquick-dialogs,
          ${misc:Depends},
          ${shlibs:Depends},
-Suggests: kdeconnect
+Suggests: kdeconnect,
 Description: abstraction to provide and leverage actions of a specific kind, runtime
  Purpose offers the possibility to create integrate services and actions on
  any application without having to implement them specifically. Purpose will
@@ -50,7 +51,7 @@ Package: libkf5purpose-dev
 Section: libdevel
 Architecture: any
 Multi-Arch: same
-Depends: libkf5coreaddons-dev (>= 5.90.0~),
+Depends: libkf5coreaddons-dev (>= 5.103.0~),
          libkf5purpose5 (= ${binary:Version}),
          qtbase5-dev (>= 5.15.2~),
          ${misc:Depends},
@@ -70,8 +71,8 @@ Depends: qml-module-org-kde-kquickcontrolsaddons (>= 5.70.0~),
          qml-module-qtquick-controls2,
          ${misc:Depends},
          ${shlibs:Depends},
-Recommends: libkf5purpose-bin, qml-module-org-kde-purpose (= ${binary:Version})
-Suggests: kde-telepathy-send-file
+Recommends: libkf5purpose-bin, qml-module-org-kde-purpose (= ${binary:Version}),
+Suggests: kde-telepathy-send-file,
 Description: library for abstractions to get the developer's purposes fulfilled
  Framework for providing abstractions to get the developer's purposes fulfilled.
  .
@@ -86,7 +87,7 @@ Depends: qml-module-qtquick-controls,
          qml-module-qtquick2,
          ${misc:Depends},
          ${shlibs:Depends},
-Recommends: kdeconnect
+Recommends: kdeconnect,
 Description: abstraction to provide and leverage actions of a specific kind, qml bindings
  Purpose offers the possibility to create integrate services and actions on
  any application without having to implement them specifically. Purpose will

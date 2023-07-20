@@ -26,3 +26,6 @@ msgstr "Invia file"
 #, kde-format
 msgid "Configuration cancelled"
 msgstr "Configurazione annullata"
+
+#~ msgid "Cancel"
+#~ msgstr "Annulla"

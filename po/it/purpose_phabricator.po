@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2021-03-06 02:34+0100\n"
+"POT-Creation-Date: 2022-08-09 00:42+0000\n"
 "PO-Revision-Date: 2018-06-03 14:31+0100\n"
 "Last-Translator: Paolo Zamponi <zapaolo@email.it>\n"
 "Language-Team: Italian <kde-i18n-it@kde.org>\n"
@@ -73,12 +73,12 @@ msgstr "Crea una nuova «differenza di Differential»"
 msgid "Create or update?"
 msgstr "Crea o aggiorna?"
 
-#: phabricatorplugin_config.qml:69
+#: phabricatorplugin_config.qml:65
 #, kde-format
 msgid "New Diff"
 msgstr "Nuova diff"
 
-#: phabricatorplugin_config.qml:70
+#: phabricatorplugin_config.qml:66
 #, kde-format
 msgid ""
 "tick this to create a new \"differential diff\" which can\n"
@@ -87,12 +87,12 @@ msgstr ""
 "segna qui per creare una nuova «differenza di Differential», che\n"
 "può essere convertita online in una nuova revisione di Differential"
 
-#: phabricatorplugin_config.qml:78
+#: phabricatorplugin_config.qml:73
 #, kde-format
 msgid "Update Diff"
 msgstr "Aggiorna diff"
 
-#: phabricatorplugin_config.qml:79
+#: phabricatorplugin_config.qml:74
 #, kde-format
 msgid ""
 "tick this to update an existing revision,\n"
@@ -101,23 +101,29 @@ msgstr ""
 "segna qui per aggiornare una revisione esistente,\n"
 "selezionane una dall'elenco qui sotto."
 
-#: phabricatorplugin_config.qml:107
+#: phabricatorplugin_config.qml:102
 #, kde-format
 msgid "Open Diff in browser"
 msgstr "Apri diff in un browser"
 
 #. i18nd("purpose_phabricator", ).arg() to avoid showing the "%1" when inactive
-#: phabricatorplugin_config.qml:114
+#: phabricatorplugin_config.qml:109
 #, kde-format
 msgid "Summary of the update to %1:"
 msgstr "Riassunto dell'aggiornamento a %1:"
 
-#: phabricatorplugin_config.qml:114
+#: phabricatorplugin_config.qml:109
 #, kde-format
 msgid "Summary of the update"
 msgstr "Riassunto dell'aggiornamento"
 
-#: phabricatorplugin_config.qml:122
+#: phabricatorplugin_config.qml:117
 #, kde-format
 msgid "patch updated through %1 and the Purpose/Phabricator plugin"
 msgstr "patch caricata con %1 e l'estensione di Phabricator per Purpose"
+
+#~ msgid "Please note"
+#~ msgstr "Nota"
+
+#~ msgid "Remember to complete the differential revision online!"
+#~ msgstr "Ricorda di completare online la revisione di Differential."

@@ -42,3 +42,9 @@ msgstr "Göndərin"
 #, kde-format
 msgid "Cancel"
 msgstr "İmtina"
+
+#~ msgid "Run"
+#~ msgstr "Başladın"
+
+#~ msgid "Back"
+#~ msgstr "Geriyə"

@@ -15,7 +15,6 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
-"X-Generator: Lokalize 20.12.1\n"
 
 #: AlternativesView.qml:34
 #, kde-format
@@ -39,3 +38,9 @@ msgstr ""
 #, kde-format
 msgid "Cancel"
 msgstr ""
+
+#~ msgid "Run"
+#~ msgstr "Jalankan"
+
+#~ msgid "Back"
+#~ msgstr "Kembali"

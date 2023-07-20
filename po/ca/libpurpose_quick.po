@@ -4,6 +4,7 @@
 # version 3 or later versions approved by the membership of KDE e.V.
 #
 # Josep M. Ferrer <txemaq@gmail.com>, 2015, 2020, 2021.
+# Empar Montoro Martín <montoro_mde@gva.es>, 2019.
 msgid ""
 msgstr ""
 "Project-Id-Version: purpose\n"
@@ -45,3 +46,12 @@ msgstr "Envia"
 #, kde-format
 msgid "Cancel"
 msgstr "Cancel·la"
+
+#~ msgid "Run"
+#~ msgstr "Executa"
+
+#~ msgid "Back"
+#~ msgstr "Enrere"
+
+#~ msgid "Configuration cancelled"
+#~ msgstr "S'ha cancel·lat la configuració"

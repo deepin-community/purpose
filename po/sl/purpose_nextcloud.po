@@ -38,3 +38,9 @@ msgstr "Nastavi račune"
 #, kde-format
 msgid "Upload to folder:"
 msgstr "Prenesi v mapo:"
+
+#~ msgid "Account:"
+#~ msgstr "Račun:"
+
+#~ msgid "Invalid folder!"
+#~ msgstr "Napačna mapa!"

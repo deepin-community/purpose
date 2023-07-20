@@ -40,3 +40,9 @@ msgstr "Kontuak konfiguratu"
 #, kde-format
 msgid "Upload to folder:"
 msgstr "Zama-igo karpetara:"
+
+#~ msgid "Account:"
+#~ msgstr "Kontua:"
+
+#~ msgid "Invalid folder!"
+#~ msgstr "Karpeta baliogabea!"

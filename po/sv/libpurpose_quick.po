@@ -42,3 +42,12 @@ msgstr "Skicka"
 #, kde-format
 msgid "Cancel"
 msgstr "Avbryt"
+
+#~ msgid "Run"
+#~ msgstr "Run"
+
+#~ msgid "Back"
+#~ msgstr "Tillbaka"
+
+#~ msgid "Configuration cancelled"
+#~ msgstr "Inställning avbruten"

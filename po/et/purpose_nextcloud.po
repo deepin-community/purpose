@@ -36,3 +36,9 @@ msgstr ""
 #, kde-format
 msgid "Upload to folder:"
 msgstr "Üleslaadimine kataloogi:"
+
+#~ msgid "Account:"
+#~ msgstr "Konto:"
+
+#~ msgid "Invalid folder!"
+#~ msgstr "Vigane kataloog!"

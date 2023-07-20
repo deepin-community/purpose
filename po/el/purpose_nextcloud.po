@@ -36,3 +36,6 @@ msgstr "Διαμόρφωση λογαριασμών"
 #, kde-format
 msgid "Upload to folder:"
 msgstr "Αποστολή στον φάκελο:"
+
+#~ msgid "Account:"
+#~ msgstr "Λογαριασμός:"
