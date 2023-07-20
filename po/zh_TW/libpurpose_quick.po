@@ -39,3 +39,9 @@ msgstr ""
 #, kde-format
 msgid "Cancel"
 msgstr ""
+
+#~ msgid "Run"
+#~ msgstr "執行"
+
+#~ msgid "Back"
+#~ msgstr "返回"

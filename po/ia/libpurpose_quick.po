@@ -42,3 +42,9 @@ msgstr "Invia"
 #, kde-format
 msgid "Cancel"
 msgstr "Cancella"
+
+#~ msgid "Run"
+#~ msgstr "Exeque"
+
+#~ msgid "Back"
+#~ msgstr "Retro"

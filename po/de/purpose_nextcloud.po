@@ -35,3 +35,9 @@ msgstr "Konten einrichten"
 #, kde-format
 msgid "Upload to folder:"
 msgstr "Hochladen zum Ordner:"
+
+#~ msgid "Account:"
+#~ msgstr "Zugang:"
+
+#~ msgid "Invalid folder!"
+#~ msgstr "Ungültiger Ordner"

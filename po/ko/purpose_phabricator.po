@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2021-03-06 02:34+0100\n"
+"POT-Creation-Date: 2022-08-09 00:42+0000\n"
 "PO-Revision-Date: 2018-08-14 23:24+0100\n"
 "Last-Translator: Shinjo Park <kde@peremen.name>\n"
 "Language-Team: Korean <kde-kr@kde.org>\n"
@@ -73,12 +73,12 @@ msgstr "새 \"차분 diff\" 만들기"
 msgid "Create or update?"
 msgstr "생성 또는 업데이트?"
 
-#: phabricatorplugin_config.qml:69
+#: phabricatorplugin_config.qml:65
 #, kde-format
 msgid "New Diff"
 msgstr "새 차이점"
 
-#: phabricatorplugin_config.qml:70
+#: phabricatorplugin_config.qml:66
 #, kde-format
 msgid ""
 "tick this to create a new \"differential diff\" which can\n"
@@ -87,12 +87,12 @@ msgstr ""
 "이 옵션을 선택하면 새 \"차분 diff\"를 만들어서\n"
 "새 차분 리비전으로 온라인에서 변환할 수 있습니다"
 
-#: phabricatorplugin_config.qml:78
+#: phabricatorplugin_config.qml:73
 #, kde-format
 msgid "Update Diff"
 msgstr "차이점 업데이트"
 
-#: phabricatorplugin_config.qml:79
+#: phabricatorplugin_config.qml:74
 #, kde-format
 msgid ""
 "tick this to update an existing revision,\n"
@@ -101,23 +101,29 @@ msgstr ""
 "이 옵션을 선택하면 기존 리비전을 업데이트합니다.\n"
 "아래 목록에서 선택하십시오."
 
-#: phabricatorplugin_config.qml:107
+#: phabricatorplugin_config.qml:102
 #, kde-format
 msgid "Open Diff in browser"
 msgstr "브라우저에서 차이점 열기"
 
 #. i18nd("purpose_phabricator", ).arg() to avoid showing the "%1" when inactive
-#: phabricatorplugin_config.qml:114
+#: phabricatorplugin_config.qml:109
 #, kde-format
 msgid "Summary of the update to %1:"
 msgstr "%1 업데이트 요약:"
 
-#: phabricatorplugin_config.qml:114
+#: phabricatorplugin_config.qml:109
 #, kde-format
 msgid "Summary of the update"
 msgstr "업데이트 요약"
 
-#: phabricatorplugin_config.qml:122
+#: phabricatorplugin_config.qml:117
 #, kde-format
 msgid "patch updated through %1 and the Purpose/Phabricator plugin"
 msgstr "%1 및 Purpose/Phabricator 플러그인으로 패치가 업데이트됨"
+
+#~ msgid "Please note"
+#~ msgstr "참고 사항"
+
+#~ msgid "Remember to complete the differential revision online!"
+#~ msgstr "온라인에서 차분 리비전 생성을 완료하십시오!"

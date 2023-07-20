@@ -28,3 +28,12 @@ msgstr "Enviar archivo"
 #, kde-format
 msgid "Configuration cancelled"
 msgstr "Configuración cancelada"
+
+#~ msgid "Cancel"
+#~ msgstr "Cancelar"
+
+#~ msgid "Run"
+#~ msgstr "Ejecutar"
+
+#~ msgid "%1 - %2"
+#~ msgstr "%1 - %2"

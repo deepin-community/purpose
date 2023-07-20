@@ -38,3 +38,9 @@ msgstr "اضبط الحسابات"
 #, kde-format
 msgid "Upload to folder:"
 msgstr "ارفع على المجلد:"
+
+#~ msgid "Account:"
+#~ msgstr "الحساب:"
+
+#~ msgid "Invalid folder!"
+#~ msgstr "المجلد غير صالح!"

@@ -36,3 +36,9 @@ msgstr "Configura contos"
 #, kde-format
 msgid "Upload to folder:"
 msgstr "Carga a dossier:"
+
+#~ msgid "Account:"
+#~ msgstr "Conto:"
+
+#~ msgid "Invalid folder!"
+#~ msgstr "Dossier invalide!"

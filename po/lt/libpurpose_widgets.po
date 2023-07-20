@@ -29,3 +29,6 @@ msgstr "Siųsti"
 #, kde-format
 msgid "Configuration cancelled"
 msgstr "Konfigūracijos atsisakyta"
+
+#~ msgid "Cancel"
+#~ msgstr "Atsisakyti"

@@ -26,3 +26,6 @@ msgstr "Fayl göndərin"
 #, kde-format
 msgid "Configuration cancelled"
 msgstr "Konfiqurasiya ləğv edildi"
+
+#~ msgid "Cancel"
+#~ msgstr "Ləğv et"

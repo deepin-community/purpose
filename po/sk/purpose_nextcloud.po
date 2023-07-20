@@ -36,3 +36,9 @@ msgstr "Nastaviť účty"
 #, kde-format
 msgid "Upload to folder:"
 msgstr "Odoslať do priečinka:"
+
+#~ msgid "Account:"
+#~ msgstr "Konto:"
+
+#~ msgid "Invalid folder!"
+#~ msgstr "Neplatný priečinok!"

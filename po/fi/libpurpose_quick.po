@@ -42,3 +42,9 @@ msgstr "Lähetä"
 #, kde-format
 msgid "Cancel"
 msgstr "Peru"
+
+#~ msgid "Run"
+#~ msgstr "Suorita"
+
+#~ msgid "Back"
+#~ msgstr "Takaisin"

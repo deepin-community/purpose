@@ -36,3 +36,9 @@ msgstr "Anpassa konton"
 #, kde-format
 msgid "Upload to folder:"
 msgstr "Ladda upp till katalog:"
+
+#~ msgid "Account:"
+#~ msgstr "Konto:"
+
+#~ msgid "Invalid folder!"
+#~ msgstr "Ogiltig katalog."

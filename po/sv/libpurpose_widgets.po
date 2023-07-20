@@ -26,3 +26,12 @@ msgstr "Skicka fil"
 #, kde-format
 msgid "Configuration cancelled"
 msgstr "Inställning avbruten"
+
+#~ msgid "Cancel"
+#~ msgstr "Avbryt"
+
+#~ msgid "Run"
+#~ msgstr "Kör"
+
+#~ msgid "%1 - %2"
+#~ msgstr "%1 - %2"

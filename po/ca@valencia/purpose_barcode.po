@@ -27,7 +27,7 @@ msgstr "Teclegeu un URL o un text per a generar un codi QR"
 #: barcodeplugin_config.qml:62
 #, kde-format
 msgid "Creating QR code failed"
-msgstr "Ha fallat la creació del codi QR"
+msgstr "No s'ha pogut crear el codi QR"
 
 #: barcodeplugin_config.qml:71
 #, kde-format

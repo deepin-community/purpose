@@ -44,3 +44,9 @@ msgstr "أرسل"
 #, kde-format
 msgid "Cancel"
 msgstr "ألغِ"
+
+#~ msgid "Run"
+#~ msgstr "شغّل"
+
+#~ msgid "Back"
+#~ msgstr "عُد"

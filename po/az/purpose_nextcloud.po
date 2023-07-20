@@ -36,3 +36,6 @@ msgstr "İstifadəçi hesablarını ayarlamaq"
 #, kde-format
 msgid "Upload to folder:"
 msgstr "Təyinat Qovluğu:"
+
+#~ msgid "Account:"
+#~ msgstr "İstifadəçi Hesabı:"

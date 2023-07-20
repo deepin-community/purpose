@@ -38,3 +38,9 @@ msgstr "Настроить учётные записи"
 #, kde-format
 msgid "Upload to folder:"
 msgstr "Папка назначения:"
+
+#~ msgid "Account:"
+#~ msgstr "Учётная запись:"
+
+#~ msgid "Invalid folder!"
+#~ msgstr "Некорректная папка"

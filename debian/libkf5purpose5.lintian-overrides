@@ -1,2 +1,2 @@
 # It is intended to add dependency to libkf5purpose-bin
-libkf5purpose5: symbols-declares-dependency-on-other-package libkf5purpose-bin (libKF5Purpose.so.5)
+libkf5purpose5: symbols-declares-dependency-on-other-package libkf5purpose-bin (libKF5Purpose.so.5) [symbols]

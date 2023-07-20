@@ -39,3 +39,9 @@ msgstr "Налаштувати облікові записи"
 #, kde-format
 msgid "Upload to folder:"
 msgstr "Тека вивантаження:"
+
+#~ msgid "Account:"
+#~ msgstr "Обліковий запис:"
+
+#~ msgid "Invalid folder!"
+#~ msgstr "Некоректна тека!"

@@ -36,3 +36,9 @@ msgstr ""
 #, kde-format
 msgid "Upload to folder:"
 msgstr "上傳到資料夾："
+
+#~ msgid "Account:"
+#~ msgstr "帳號："
+
+#~ msgid "Invalid folder!"
+#~ msgstr "資料夾無效！"

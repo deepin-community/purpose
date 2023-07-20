@@ -40,3 +40,9 @@ msgstr ""
 #, kde-format
 msgid "Cancel"
 msgstr ""
+
+#~ msgid "Run"
+#~ msgstr "Ausführen"
+
+#~ msgid "Back"
+#~ msgstr "Zurück"

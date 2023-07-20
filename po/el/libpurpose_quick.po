@@ -43,3 +43,9 @@ msgstr "Αποστολή"
 #, kde-format
 msgid "Cancel"
 msgstr "Ακύρωση"
+
+#~ msgid "Run"
+#~ msgstr "Εκτέλεση"
+
+#~ msgid "Back"
+#~ msgstr "Πίσω"

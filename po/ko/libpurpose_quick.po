@@ -42,3 +42,9 @@ msgstr "보내기"
 #, kde-format
 msgid "Cancel"
 msgstr "취소"
+
+#~ msgid "Run"
+#~ msgstr "실행"
+
+#~ msgid "Back"
+#~ msgstr "뒤로"

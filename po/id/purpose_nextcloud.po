@@ -35,3 +35,9 @@ msgstr ""
 #, kde-format
 msgid "Upload to folder:"
 msgstr "Unggahkan ke folder:"
+
+#~ msgid "Account:"
+#~ msgstr "Akun:"
+
+#~ msgid "Invalid folder!"
+#~ msgstr "Folder tidak absah!"

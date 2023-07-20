@@ -42,3 +42,9 @@ msgstr "Küldés"
 #, kde-format
 msgid "Cancel"
 msgstr "Mégsem"
+
+#~ msgid "Run"
+#~ msgstr "Futtatás"
+
+#~ msgid "Back"
+#~ msgstr "Vissza"

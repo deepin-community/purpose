@@ -27,3 +27,12 @@ msgstr "파일 보내기"
 #, kde-format
 msgid "Configuration cancelled"
 msgstr "설정 취소됨"
+
+#~ msgid "Cancel"
+#~ msgstr "취소"
+
+#~ msgid "Run"
+#~ msgstr "실행"
+
+#~ msgid "%1 - %2"
+#~ msgstr "%1 - %2"

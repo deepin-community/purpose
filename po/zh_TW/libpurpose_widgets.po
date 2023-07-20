@@ -28,3 +28,6 @@ msgstr "傳送"
 #, kde-format
 msgid "Configuration cancelled"
 msgstr "已取消設定"
+
+#~ msgid "Cancel"
+#~ msgstr "取消"

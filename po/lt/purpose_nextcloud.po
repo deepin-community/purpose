@@ -38,3 +38,9 @@ msgstr ""
 #, kde-format
 msgid "Upload to folder:"
 msgstr "Įkelti į aplanką:"
+
+#~ msgid "Account:"
+#~ msgstr "Paskyra:"
+
+#~ msgid "Invalid folder!"
+#~ msgstr "Neteisingas aplankas!"

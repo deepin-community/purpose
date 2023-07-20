@@ -27,3 +27,6 @@ msgstr "Saada"
 #, kde-format
 msgid "Configuration cancelled"
 msgstr "Seadistamine katkestati"
+
+#~ msgid "Cancel"
+#~ msgstr "Loobu"

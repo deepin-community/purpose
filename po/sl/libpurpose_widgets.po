@@ -27,3 +27,6 @@ msgstr "Pošlji datoteko"
 #, kde-format
 msgid "Configuration cancelled"
 msgstr "Nastavitev preklicana"
+
+#~ msgid "Cancel"
+#~ msgstr "Prekliči"
